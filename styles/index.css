@@ -1,0 +1,120 @@
+/* ===========================
+   Educare Portfolio - Styling
+   =========================== */
+
+/* ========== RESET ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+}
+
+/* ========== REUSABLE CLASSES ========== */
+.container {
+}
+
+.section {
+}
+
+h1, h2, h3, h4 {
+}
+
+/* Buttons */
+.btn-primary {
+}
+
+.btn-primary:hover {
+}
+
+
+
+/* ========== HEADER ========== */
+.site-header {
+}
+
+.site-header .container {
+}
+
+.logo {
+}
+
+.navbar ul {
+}
+
+.navbar a {
+}
+
+.navbar a:hover {
+}
+
+/* ========== HERO SECTION ========== */
+.hero {
+}
+
+.hero h2 {
+}
+
+.hero p {
+}
+
+/* ========== ABOUT SECTION ========== */
+.about p {
+}
+
+
+
+/* ========== PROJECTS SECTION ========== */
+.project-grid {
+}
+
+.project-card {
+}
+
+.project-card img {
+}
+
+.project-card h3 {
+}
+
+
+
+/* ========== TEAM SECTION ========== */
+.team-grid {
+}
+
+.team-member {
+}
+
+.team-member img {
+}
+
+.team-member h4 {
+  color: #2b2b2b;
+  margin-bottom: 0.5rem;
+}
+
+.team-member p {
+  color: #666;
+}
+
+
+
+/* ========== CONTACT SECTION ========== */
+form {
+}
+
+input, textarea {
+}
+
+
+
+/* ========== FOOTER ========== */
+.site-footer {
+}
