@@ -46,6 +46,22 @@ The project is divided into **three main groups**, each with a specific focus:
 
 ---
 
+## 🌱 Git Workflow
+
+### 🧩 Branching Rules
+- Everyone should **create their own branch** starting with `feature-` followed by their **name**.  
+  Example:
+  ```bash
+  git checkout -b feature-christianonoh
+  ```
+- Each group must maintain a **group branch** where members merge their feature branches:
+  - `group-1-structure`
+  - `group-2-styles`
+  - `group-3-events`
+- All group branches create a pull request into the **`dev`** branch (main development branch).
+
+---
+
 ## 💡 General Guidelines
 - Follow good naming conventions and folder structure.  
 - Commit regularly with meaningful messages.  
