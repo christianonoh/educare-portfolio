@@ -5,3 +5,11 @@
     justify-content: space-between;
 }
 
+.valueBox
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: solid 1px gray;
+    height: 100%;
+}
