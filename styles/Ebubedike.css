@@ -1,0 +1,125 @@
+/* Team Gallery Section */
+.team-gallery-section {
+  background-color: rgb(225, 248, 248);
+  padding: 1rem 2rem;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.team-gallery-section h5 {
+  color: rgb(28, 107, 28);
+}
+
+/* Gallery Layout */
+.team-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Gallery Cards */
+.gallery-card {
+  background-color:rgb(225, 248, 248);
+  text-align: left;
+  overflow: hidden;
+}
+
+/* Card Images */
+.gallery-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Card Text */
+.gallery-card-items p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  color: rgb(28, 107, 28);
+}
+
+/* gallery-banner Section */
+.gallery-banner{
+  background-image: url(./Photos/image.png);
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e0f7f7;
+  padding: 1rem 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.gallery-banner-left {
+     display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.gallery-banner-left-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 100px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.gallery-banner-left h3 {
+  color: #fff;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+}
+
+.gallery-banner-left p {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+
+/* Right section (button) */
+.gallery-banner-right .Join {
+  background-color: #1c6b1c;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.gallery-banner-right .Join:hover {
+  background-color: #155515;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  .gallery-banner {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .team-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .team-gallery {
+    grid-template-columns: 1fr;
+  }
+}
