@@ -10,6 +10,6 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    border: solid 1px gray;
+    border: solid 1px #dfdfdf;
     height: 100%;
 }
