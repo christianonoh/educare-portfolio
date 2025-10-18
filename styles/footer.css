@@ -13,3 +13,10 @@
     border: solid 1px #dfdfdf;
     height: 100%;
 }
+
+.valueBox:hover
+{
+    background-color: #e9f1bc;
+    border-top-right-radius: 30%;
+    color: darkgreen;
+}
