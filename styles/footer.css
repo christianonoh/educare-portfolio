@@ -56,3 +56,8 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+.linksList > :first-child
+{
+    font-weight: bold;
+}
