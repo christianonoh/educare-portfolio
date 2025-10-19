@@ -69,4 +69,7 @@
     flex-direction: row;
 }
 
-
+.policyLine :first-child{
+    color: #dfdfdf;
+    font-weight: lighter;
+}
