@@ -32,3 +32,11 @@
     padding-left: 50px;
     position: relative;
 }
+
+.advertBanner img
+{
+    border-top-right-radius: 60%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
