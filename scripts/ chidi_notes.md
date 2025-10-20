@@ -1,0 +1,1 @@
+This Markdown file describes the behavior of the Educare Portfolio website.
