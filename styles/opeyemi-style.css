@@ -10,7 +10,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #222;
   background-color: #f9f9f9;
-  line-height: 1.6px;
+  line-height: 1.6;
 }
 
 /* Navbar styling */
@@ -76,7 +76,7 @@ body {
   }
 
   .hero-content h1 {
-    font-size: 1.8rem;
+    font-size: 45px;
   }
 }
 
@@ -119,13 +119,13 @@ body {
 .column1 img {
   width: 100%;
   max-width: 450px;
-  margin-top: 10px;
   margin-top: 25px;
   border-bottom-right-radius: 100px;
 }
 .column2-text{
 color: #000000;
 font-size: 16px;
+font-weight: 400;
 line-height: 1.7; 
 }
 
@@ -138,14 +138,14 @@ line-height: 1.7;
 
 .about-team p {
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 400;
   color: #000;
   line-height: 1.5;
 }
 
 .about-team span {
   font-size: 25px;
-  font-weight: semi bold;
+  font-weight: 600;
   margin-top: 5%;
 }
 
