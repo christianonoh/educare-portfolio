@@ -119,9 +119,9 @@ body {
 .column1 img {
   width: 100%;
   max-width: 450px;
-  border-radius: 10px;
   margin-top: 10px;
   margin-top: 25px;
+  border-bottom-right-radius: 100px;
 }
 .column2-text{
 color: #000000;
