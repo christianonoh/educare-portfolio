@@ -1,7 +1,7 @@
 # 🎓 Educare Portfolio Bootcamp Project
 
 Welcome to the **Educare Portfolio Project**
-This is a collaborative exercise where we’ll rebuild a simple one-page portfolio inspired by the design on [winexviv.com](https://winexviv.com/).  
+This is a collaborative exercise where we’ll build a simple one-page portfolio for [Educare](https://educare.school) inspired by the design on [Dipa Inhouse of Ascone Website](https://cdn.dribbble.com/userupload/44147297/file/original-9284487d21d4c48a4278b96e2711a7b5.png?resize=640x2236&vertical=center).
 
 The project is divided into **three main groups**, each with a specific focus:
 
@@ -71,4 +71,4 @@ The project is divided into **three main groups**, each with a specific focus:
 ---
 
 ## 🚀 Final Goal
-Recreate a clean, elegant **one-page portfolio** inspired by [winexviv.com](https://winexviv.com/) — simple, modern, and professional.  
+Recreate a clean, elegant **one-page portfolio** inspired by [Dipa Inhouse of Ascone Website](https://cdn.dribbble.com/userupload/44147297/file/original-9284487d21d4c48a4278b96e2711a7b5.png?resize=640x2236&vertical=center) — simple, modern, and professional.  

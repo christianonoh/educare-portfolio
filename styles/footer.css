@@ -1,0 +1,81 @@
+.valuesText
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.valueBox
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: solid 1px #dfdfdf;
+    height: 100%;
+}
+
+.valueBox:hover
+{
+    background-color: #e9f1bc;
+    border-top-right-radius: 30%;
+    color: darkgreen;
+}
+
+.advertBanner
+{
+    display: flex;
+    background-color: darkgreen;
+    color: white;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+    padding-left: 50px;
+    position: relative;
+}
+
+.advertBanner img
+{
+    border-top-right-radius: 60%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#linksListContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid 1px #dfdfdf;
+    padding-bottom: 70px;
+}
+
+.linksList
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.linksList > :first-child
+{
+    font-weight: bold;
+}
+
+.policyLine{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.policyLine :first-child{
+    color: #dfdfdf;
+    font-weight: lighter;
+}
+
+.policyLine :nth-child(2)
+{
+    margin-left: auto;
+}
