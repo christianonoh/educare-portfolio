@@ -13,20 +13,6 @@ body {
   line-height: 1.6px;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
-  color: #222;
-  background-color: #f9f9f9;
-  line-height: 1.6px;
-}
-
-body {
-  font-family: 'Poppins', sans-serif;
-  color: #222;
-  background-color: #f9f9f9;
-  line-height: 1.6px;
-}
-
 /* Navbar styling */
 .navbar {
   background-color: #ffffff;
@@ -36,22 +22,20 @@ body {
 
 .nav-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.logo img {
-  width: 80px;
-  height: auto;
+.logo{
+  width: 150px;
   color: #1f3d29;
 }
 
 .nav-links a {
-  color: #1f3d29;
+  color: #054d1d;
   text-decoration: none;
   margin-left: 15px;
   font-weight: 500;
   transition: color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
 }
 
 .nav-links a:hover {
@@ -60,7 +44,7 @@ body {
 
 /* Hero section */
 .hero {
-  background-color: #6ce494;
+  background-color: #054d1d;
   color: white;
   text-align: center;
   height: 85vh; 
@@ -72,11 +56,13 @@ body {
 
 .hero-content p {
   font-size: 16px;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 7%;
 }
 
 .hero-content h1 {
   font-size: 35px;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Responsive Design */
@@ -111,32 +97,34 @@ body {
   min-width: 300px;
   display: flex;
   flex-direction: column;
+  line-height: 1.0;
   
 }
 
 .about-title {
-  font-size: 30px;     
+  font-size: 45px;     
   font-weight: 600;
   color: #222;
   margin: 0; 
   padding: 0;
-  line-height: 0.7;            
+  line-height: 1.7;            
 }
 
 .about-text {
-  color: #08a55e;
+  color: #0ab81e;
   font-size: 16px;
-  
+  line-height: 3.0;
 }
 
 .column1 img {
   width: 100%;
-  max-width: 400px;
+  max-width: 450px;
   border-radius: 10px;
   margin-top: 10px;
+  margin-top: 25px;
 }
 .column2-text{
-color: #000;
+color: #000000;
 font-size: 16px;
 line-height: 1.7; 
 }
