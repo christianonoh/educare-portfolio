@@ -1,3 +1,8 @@
+body{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
 .valuesText
 {
     display: flex;
@@ -54,7 +59,6 @@
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .linksList > :first-child
@@ -62,12 +66,21 @@
     font-weight: bold;
 }
 
+#linksListContainer div img
+{
+    height: 200px;
+}
+
+#linksListContainer h6
+{
+    margin-top: auto;
+}
+
 .policyLine{
     display: flex;
     justify-content: space-between;
     font-weight: bold;
     flex-direction: row;
-    gap: 20px;
 }
 
 .policyLine :first-child{
@@ -78,4 +91,27 @@
 .policyLine :nth-child(2)
 {
     margin-left: auto;
+}
+
+@media (max-width: 768px)
+{
+    #linksListContainer div h6
+    {
+        display: none;
+    }
+    
+    #linksListContainer div img
+    {
+        display: none;
+    }
+
+    #linksListContainer h6
+    {
+        display: none;
+    }
+
+    body{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
