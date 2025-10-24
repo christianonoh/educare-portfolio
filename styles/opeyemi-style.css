@@ -1,5 +1,6 @@
 /* Opeyemi Styles for Navbar and Hero Section  */
 
+
 * {
   margin: 0;
   padding: 0;
@@ -14,39 +15,41 @@ body {
 }
 
 /* Navbar styling */
-.navbar {
+.navbar {             
+  align-items: center;        
+  justify-content: space-between;
+  align-items: center;
   background-color: #ffffff;
+  height: 5vh;
   color: white;
+  align-items: center;
   padding: 3% 5%;
 }
 
 .nav-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.logo img {
-  width: 80px;
-  height: auto;
+.logo{
+  width: 150px;
   color: #1f3d29;
 }
 
 .nav-links a {
-  color: #1f3d29;
-  text-decoration: none;
+ color: #054d1d;
+ text-decoration: none;
   margin-left: 15px;
   font-weight: 500;
   transition: color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
 }
 
 .nav-links a:hover {
   color: #64ffda;
 }
-
 /* Hero section */
 .hero {
-  background-color: #6ce494;
+  background-color: #054d1d;
   color: white;
   text-align: center;
   height: 85vh; 
@@ -58,11 +61,13 @@ body {
 
 .hero-content p {
   font-size: 16px;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 7%;
 }
 
 .hero-content h1 {
   font-size: 35px;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Responsive Design */
@@ -76,7 +81,7 @@ body {
   }
 
   .hero-content h1 {
-    font-size: 16px;
+    font-size: 45px;
   }
 }
 
@@ -97,35 +102,36 @@ body {
   min-width: 300px;
   display: flex;
   flex-direction: column;
-  
+  line-height: 1.0;
 }
 
 .about-title {
-  font-size: 30px;     
-  font-weight: 600;
+  font-size: 45px;     
+ font-weight: 600;
   color: #222;
   margin: 0; 
   padding: 0;
-  line-height: 0.7;            
+  line-height: 1.7;            
 }
 
 .about-text {
-  color: #08a55e;
+  color: #0ab81e;
   font-size: 16px;
+  line-height: 3.0;
 }
 
 .column1 img {
   width: 100%;
-  max-width: 400px;
-  border-radius: 10px;
-  margin-top: 10px;
+  max-width: 450px;
+  margin-top: 25px;
+  border-bottom-right-radius: 100px;
 }
 .column2-text{
-color: #000;
-  font-size: 16px;
-  line-height: 1.5;
+color: #000000;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.7; 
 }
-
 
 .about-team {
   display: flex;
@@ -135,14 +141,13 @@ color: #000;
 
 .about-team p {
   font-size: 16px;
-  font-weight: 200;
   color: #000;
   line-height: 1.5;
 }
 
 .about-team span {
   font-size: 25px;
-  font-weight: semi bold;
+  font-weight: 600;
   margin-top: 5%;
 }
 
